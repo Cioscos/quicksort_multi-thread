@@ -11,3 +11,5 @@ mkdir build
 cd build
 gcc -Wall -Wextra -I../include -O3 ../source/mt_sort.c ../test/main.c -o test -lpthread
 ```
+### WARNING!
+The test generates 1 mln of numbers randomly; this means that the program needs almost 4Gb of RAM on your device.
